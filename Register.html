@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="form.php" method="post">
+        <div class="form-group">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required placeholder="Enter Your First Name">
+        </div>
+        <div class="form-group">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required placeholder="Enter Your Last Name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter Your Email">
+        </div>
+        <div class="form-group">
+            <label for="mobile">Mobile:</label>
+            <input type="tel" id="mobile" name="mobile" required placeholder="Enter Your Mobile Number" pattern="[0-9]{10}">
+        </div>
+        <div class="form-group">
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" value="male" required> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+            <label><input type="radio" name="gender" value="other"> Other</label>
+        </div>
+        <div class="form-group">
+            <label for="nationality">Nationality:</label>
+            <select id="nationality" name="nationality" required>
+                <option value="" disabled selected>Select Your Nationality</option>
+                <option value="indian">Indian</option>
+                <option value="american">American</option>
+                <option value="canadian">Canadian</option>
+                <option value="australian">Australian</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="study">Education Level:</label>
+            <select id="study" name="study" required>
+                <option value="" disabled selected>Select Your Education Level</option>
+                <option value="x">X</option>
+                <option value="xii">XII</option>
+                <option value="graduation">Graduation</option>
+                <option value="post_graduation">Post Graduation</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="intro">Introduction:</label>
+            <textarea id="intro" name="intro" rows="5" placeholder="Tell us about yourself"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

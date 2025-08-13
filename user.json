@@ -1,0 +1,35 @@
+[
+    {
+        "fname": "Sahibjot Singh",
+        "lname": "Benipal",
+        "email": "sahibjot2207.be22@chitkara.edu.in",
+        "mobile": "7626846237",
+        "gender": "male",
+        "nationality": "indian",
+        "education": "graduation",
+        "intro": "hello",
+        "datetime": "2025-08-07 11:37:49"
+    },
+    {
+        "fname": "Sahibjot Singh",
+        "lname": "Benipal",
+        "email": "sahibjot2207.be22@chitkara.edu.in",
+        "mobile": "7626846231",
+        "gender": "male",
+        "nationality": "indian",
+        "education": "graduation",
+        "intro": "hello",
+        "datetime": "2025-08-07 11:38:16"
+    },
+    {
+        "fname": "Sahibjot Singh",
+        "lname": "Benipal",
+        "email": "sahibjot2207.be22@chitkara.edu.in",
+        "mobile": "7626846232",
+        "gender": "male",
+        "nationality": "indian",
+        "education": "graduation",
+        "intro": "hello",
+        "datetime": "2025-08-07 11:39:03"
+    }
+]
